@@ -14,6 +14,8 @@ void AddTask(){
     fprintf(ptr,"%s",task);
     fclose(ptr);
     printf("\nTask added successfully.\n");
+    printf("\nPress enter key to continue.");
+    getchar();
     int con = ques();
     tasks(con);
 }
@@ -26,7 +28,9 @@ void ReviewTask(){
     while(fgets(strings,sizeof(strings),ptr)!=NULL){
         printf("%s",strings);
     }
-    fclose(ptr);
+    fclose(ptr);    
+    printf("\nPress any enter to continue.");
+    getchar();
     int con = ques();
     tasks(con);
 }
@@ -37,6 +41,8 @@ void deltask(){
     fprintf(ptr, "");
     fclose(ptr);
     printf("List cleared successfully.\n");
+    printf("\nPress enter key to continue.");
+    getchar();
     int con = ques();
     tasks(con);
 }
