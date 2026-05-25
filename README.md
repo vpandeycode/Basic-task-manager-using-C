@@ -9,6 +9,7 @@ Features:
 3. can delete the task and renew the list.
 
 Features I will keep adding :
-1.Adding multiple tasks together.
-2.Deleting specific tasks.
-3.improving visual on terminal(as much as I can)
+1. Adding multiple tasks together.
+2. Deleting specific tasks.
+3. improving visual on terminal(as much as I can).
+
